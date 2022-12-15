@@ -1,18 +1,37 @@
 <html>
 <head>
-    <title> Augmented Reality </title>
+    <title> Arduino </title>
     <link rel="stylesheet" href="arduino.css">
 </head>
 <body>
     <header>
         <ul>
-            <li class="nav"><a href="mirrors.html"> Hypermedia Mirrors </a></li>
+            <li class="nav"><a href="final.html"> Final Project </a></li>
           <li class="nav"><a href="arduino.html"> Arduino </a></li>
-          <li class="nav"><a href="ar.html"> Augmented Graffiti </a></li>
+          <li class="nav"><a href="mirrors.html"> P5.js </a></li>
+          <li class="nav"><a href="ar.html"> Augmented Reality </a></li>
           <li class="nav"><a href="index.html"> Home </a></li>
           <li class="logo">Kris Otten</li>
         </ul>
     </header>
     <p class="title"> Arduino </p>
+    <p class="subtitle"> Purpose </p>
+    <p class="body" style="width: 800px;"> For this project, I created a crochet top with the Circuit Playground sewed into the center. The Circuit Playground senses the color of the 
+        object being held in front of it through the light sensor and then changes the color of all the Neopixels to the detected color. The overall goal of my project 
+    is to convey the larger idea of how women sometimes feel as though they have to change themselves to fit into a certain space. I tried to reflect this idea through
+ the action of the board detecting what color is closest in it's environment, and then changing to be that color. I believe this idea can be related to multiple spaces, 
+such as being a woman in a dominantly male field, or being in a relationship where you feel like you have to change to match the other person. I maintained this theme 
+through the design of the top. I crocheted a heart to house the Arduino to show how the Arduino is meant to symbolize one's heart.   </p>
+<img src="arduino.jpg" style="width: 400px; height: auto; margin-top: 200px; margin-left: 925px;">
+<p class="subtitle" style="margin-top: -100px;"> Code Function </p>
+    <p class="body" style="margin-top: -40px; width: 700px;"> When one of the board's buttons is pressed,
+        the light sensor connected to analog pin A8 detects the level of light on a scale between 0 and 1023. This allows the light sensor to detect the color 
+    of the object in front of it once the button is pressed. This is because different colors reflect different amounts of light, so the light sensor is able to 
+distinguish between colors based off this value. Once the RGB values of the color have been detected, the Neopixels are then changed to that color. </p>
+    <p class="subtitle" style="margin-top: 200px;"> Project Links </p>
+    <p class="body" style="margin-top: 250px;"> <span style="font-weight: bold"> Explanation/Demo Video: </span> <i><a href="https://drive.google.com/file/d/1GZD3vu3oES5c6wOBXkGt_HScgdxZ-Avk/view?usp=sharing"> Link </a></i> </p>
+    <p class="body" style="margin-top: 290px;"> <span style="font-weight: bold"> Arduino Code: </span> <i><a href="https://docs.google.com/document/d/17ZpGWQCtD1FQhgWpsHJrHoGjpzNjyPfk5893MOPHhXE/edit?usp=sharing"> Link </a></i> </p>
+    <p class="body" style="margin-top: 330px;"> <span style="font-weight: bold"> Arduino Demo Video: </span> <i><a href="https://drive.google.com/file/d/1F3M_ChERcl7XSSc-eXgxVUeZJCaoIH-q/view?usp=sharing"> Link </a></i> </p>
+    <p class="body" style="margin-top: 370px;"> <span style="font-weight: bold"> Inspiration: </span> <i><a href="https://www.instructables.com/Adafruit-Flora-Brain-Machine-Bra/"> Link </a></i> </p>
 </body>
 </html>
